@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "de45378a-6f60-4fc3-ac36-49371ebda491"
+      }
+    },
+    "owner": "andrew-team"
   }
 }
