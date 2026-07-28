@@ -1,7 +1,7 @@
 import { globalStyles } from "@/styles/global";
 import { Link } from "expo-router";
 import { ScrollView, Text } from "react-native";
-import HomeHeader from "../components/HomeHeader";
+import HomeHeader from "../../components/HomeHeader";
 
 export default function HomeScreen() {
   return (
@@ -10,6 +10,9 @@ export default function HomeScreen() {
       <HomeHeader />
       <Link href="/meals" style={{ fontSize: 18, color: "#007bff" }}>
         Go to Meals
+      </Link>
+      <Link href="/add-meal" style={{ fontSize: 18, color: "#007bff" }}>
+        Add New Meals
       </Link>
     </ScrollView>
   );
